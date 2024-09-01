@@ -1,9 +1,9 @@
-defmodule Req.MixProject do
+defmodule TypeOfDepMixProject do
   use Mix.Project
 
   def project do
     [
-      app: :req,
+      app: :type_of_dep,
       version: "0.1.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,

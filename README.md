@@ -10,7 +10,7 @@ by adding `req` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:req, "~> 0.1.0"}
+    {:type_of_dep, "~> 0.1.0"}
   ]
 end
 ```
