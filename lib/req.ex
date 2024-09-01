@@ -1,18 +1,12 @@
-defmodule Req do
-  @moduledoc """
-  Documentation for `Req`.
-  """
+defmodule Main do
+  require Require.Bank
+  require Require.Company
 
-  @doc """
-  Hello world.
+  import Import.Staff
 
-  ## Examples
+  def main() do
+    Require.Bank.kookmin()
 
-      iex> Req.hello()
-      :world
-
-  """
-  def hello do
-    :world
+    manager()
   end
 end
